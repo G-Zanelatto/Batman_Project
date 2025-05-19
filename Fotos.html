@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+    <link rel="stylesheet" href="fotoscss.css">
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="./images.jpeg">
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="Fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="banner"></div>
+
+    <div class="actor-cards-content">
+        <div class="cards-content">
+            <div class="card banner-1">Robert Pattison - Batman</div>
+            <div class="card banner-2">Zoe Kravitz - Mulher Gato</div>
+            <div class="card banner-3">Jeffrey Wright - Gordon</div>
+            <div class="card banner-4">Colin Farrelm- Pinguim</div>
+            <div class="card banner-5">Paul Dano - Charada</div>
+            <div class="card banner-6">Andy Serkis - Alfred Pennyworth</div>
+        </div>
+    </div>
+
+<footer>
+    <img style="object-fit: contain;" id="logo" src="">
+    <span>Todos os Direitos Reservados ©</span>
+    <span>Desenvolvido por Gabriel Zanelatto</span>
+</footer>    
+
+<header>
+    <img id="logo" src="./images.jpeg" alt="Logo">
+    <div class="hamburger" onclick="toggleMenu()">
+       
+    </div>
+  
+    <div class="nav-mobile">
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="contato.html">
+                <li>Contato</li>
+            </a>
+            <a href="Fotos.html">
+                <li>Fotos</li>
+            </a>
+            <a href="comentarios.html">
+                <li>Comentários</li>
+            </a>
+        </ul>
+    </div>
+</header>
+
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector('.nav-mobile');
+        menu.style.display = (menu.style.display === 'block' ? 'none' : 'block');
+    }
+</script>
+
+
+
+</body>
+</html>
